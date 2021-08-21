@@ -1887,8 +1887,8 @@ input, select, textarea {
 
 		ul.divided > li {
 			border-top: solid 2px #e7eae8;
-			padding-top: 2.35em;
-			margin-top: 2.35em;
+			padding-top: 1em;
+			margin-top: 1em;
 			padding-left: 0;
 		}
 

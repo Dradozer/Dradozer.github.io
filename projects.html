@@ -14,15 +14,6 @@
 	<body class="is-preload">
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<div class="logo container">
-						<div>
-							<p>Welcome to the portfolio of Sebastian Gaida</p>
-						</div>
-					</div>
-				</header>
-
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -40,39 +31,26 @@
 
 									<!-- Sidebar -->
 
-										<!-- Recent Posts -->
-											<section>
-												<h2 class="major"><span>Overview</span></h2>
-												<ul class="divided">
-													<li>
-														<article class="box post-summary">
-															<h3><a href="#">A Subheading</a></h3>
-															<ul class="meta">
-																<li class="icon fa-clock">6 hours ago</li>
-																<li class="icon fa-comments"><a href="#">34</a></li>
-															</ul>
-														</article>
-													</li>
-													<li>
-														<article class="box post-summary">
-															<h3><a href="#">Another Subheading</a></h3>
-															<ul class="meta">
-																<li class="icon fa-clock">9 hours ago</li>
-																<li class="icon fa-comments"><a href="#">27</a></li>
-															</ul>
-														</article>
-													</li>
-													<li>
-														<article class="box post-summary">
-															<h3><a href="#">And Another</a></h3>
-															<ul class="meta">
-																<li class="icon fa-clock">Yesterday</li>
-																<li class="icon fa-comments"><a href="#">184</a></li>
-															</ul>
-														</article>
-													</li>
-												</ul>
-											</section>
+										<section>
+											<h2 class="major"><span>Overview</span></h2>
+											<ul class="divided">
+												<li>
+													<article class="box post-summary">
+														<h3><a href="#vulkan_framework">Vulkan Framework</a></h3>
+													</article>
+												</li>
+												<li>
+													<article class="box post-summary">
+														<h3><a href="#particle_gpu">Particlesystem</a></h3>
+													</article>
+												</li>
+												<li>
+													<article class="box post-summary">
+														<h3><a href="#terrain">Procedural Terrain</a></h3>
+													</article>
+												</li>
+											</ul>
+										</section>
 								</div>
 							</div>
 							<div class="col-9 col-12-medium imp-medium">
@@ -86,13 +64,28 @@
 												<h2>Projects</h2>
 											</header>
 
-											<section>
-												<span class="image featured"><img src="images/pic05.jpg" alt="" /></span>
+											<section id="vulkan_framework">
+												<h3 style="padding-top: 60px; margin-top: -60px;">Vulkan Framework</h3>
 												<p>
-													Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-													Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-													Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-													consequat etiam lorem ipsum dolor sit amet nullam.
+													The topic of my research internship in university is to create a Vulkan framework with fellow students. Through this internship I have gained a lot of insight into the API and have dealt with the creation of a graphics framework within a group. 
+												</p>
+											</section>
+
+											<section id="particle_gpu">
+												<h3 style="padding-top: 60px; margin-top: -60px;">GPU-based Particlesystem</h3>
+												<p>
+													In my bachelor thesis I implemented a particle system on the GPU. This was extended by an acceleration data structure to massively improve the performance of the neighbor search.  
+													<br>
+													<a class="icon brands fa-github" 	href="https://github.com/Dradozer/particle-system"><span class="label"></span></a>
+												</p>
+											</section>
+
+											<section id="terrain">
+												<h3 style="padding-top: 60px; margin-top: -60px;">Procedural Terrain</h3>
+												<p>
+													One project with fellow students was to create a landscape. I focused mainly on the creation of terrain and used noise to create procedural terrain in a grid structure with tessellation and level of detail.
+													<br>
+													<a class="icon brands fa-github" 	href="https://github.com/Dradozer/EZR"><span class="label"></span></a>
 												</p>
 											</section>
 										</article>
