@@ -83,7 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f2f5f3;
+		background: rgb(110, 110, 110);
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -100,7 +101,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
-		color: #6b7770;
+		color: rgb(51, 51, 51);
 		font-size: 13pt;
 		line-height: 2em;
 	}
@@ -109,7 +110,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6b7770;
+		color:  rgb(51, 51, 51);
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
@@ -125,7 +126,7 @@ input, select, textarea {
 
 		h2.major {
 			position: relative;
-			border-top: solid 5px #e7eae8;
+			border-top: solid 5px rgb(110, 110, 110);
 			font-size: 1.65em;
 			text-align: center;
 			margin: 0 0 3em 0;
@@ -133,7 +134,7 @@ input, select, textarea {
 		}
 
 			h2.major span {
-				background: #fff;
+				background: rgb(110, 110, 110);
 				position: relative;
 				display: inline-block;
 				top: -0.775em;
@@ -1793,7 +1794,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		text-decoration: none;
 		background: #8f0000;
-		color: #fff;
+		color: rgb(51, 51, 51);
 		border: 0;
 		line-height: 1em;
 		border-radius: 8px;
@@ -1947,12 +1948,12 @@ input, select, textarea {
 				height: 48px;
 				border-radius: 6px;
 				outline: 0;
-				background: #c1cac5;
+				background: rgb(51, 51, 51);
 				text-align: center;
 			}
 
 				ul.contact li a:before {
-					color: #f2f5f3;
+					color: #b1b1b1;
 					font-size: 32px;
 					line-height: 48px;
 				}
@@ -2522,9 +2523,9 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background: #fff;
-		border-top: solid 5px #8f0000;
-		border-bottom: solid 5px #c1cac5;
+		background: rgb(110, 110, 110);
+		border-top: solid 5px rgb(70, 16, 16);
+		border-bottom: solid 5px rgb(70, 16, 16);
 		border-top-width: 35px;
 		border-bottom-width: 10px;
 		padding: 6em 0 6em 0;
@@ -2557,17 +2558,17 @@ input, select, textarea {
 		}
 
 			#footer h2.major span {
-				background: #f2f5f3;
+				background: rgb(110, 110, 110);
 			}
 
 /* Copyright */
 
 	#copyright {
 		display: inline-block;
-		background: #e7eae8;
+		background: rgb(161, 161, 161);
 		padding: 0.75em 2em 0.75em 2em;
 		border-radius: 8px;
-		color: #8b9790;
+		color: #5e5e5e;
 		margin: 4em 0 0 0;
 	}
 
@@ -2580,7 +2581,7 @@ input, select, textarea {
 		}
 
 			#copyright .menu li {
-				border-color: #C1CAC5;
+				border-color: 5px rgb(70, 16, 16);
 				border-width: 2px;
 				line-height: 1em;
 			}
@@ -2806,7 +2807,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #fff;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
