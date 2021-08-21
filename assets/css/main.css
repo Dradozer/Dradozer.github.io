@@ -1972,6 +1972,10 @@ input, select, textarea {
 				ul.contact li:hover a.fa-xing {
 					background-color: #005724;
 				}
+				
+				ul.contact li:hover a.fa-youtube {
+					background-color: #c00000;
+				}
 			ul.contact li:active {
 				top: 0;
 			}
