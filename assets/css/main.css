@@ -2768,7 +2768,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: rgba(21, 38, 23, 0.8);
+				background-color: rgba(38, 21, 21, 0.8);
 				background-image: url("images/overlay.png");
 			}
 
@@ -2780,9 +2780,10 @@ input, select, textarea {
 					text-transform: uppercase;
 					font-size: 1.25em;
 					line-height: 44px;
-					color: #fff;
+					color: rgb(110, 110, 110);
 					z-index: 1000;
 					text-align: center;
+					text-indent: -9999px;  
 				}
 
 				#titleBar .toggle {
@@ -2814,7 +2815,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #fff;
+						background: rgb(78, 78, 78);
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2825,7 +2826,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #8f0000;
+						background-color: rgb(78, 78, 78);
 					}
 
 			#navPanel {
@@ -2849,7 +2850,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background-color: #353c37;
+				background-color: rgba(38, 21, 21, 0.8);
 				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
